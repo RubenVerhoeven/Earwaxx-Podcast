@@ -1,0 +1,214 @@
+header{
+    background-color: white;
+    color: #253760;}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+header div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    flex-wrap: wrap;
+    }
+    
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    }
+
+nav li{
+    margin: 4em;
+    }
+
+a:hover {
+    background-color: lightgray;
+    transform: scale(1.1);
+}
+
+nav a {
+    padding: 10px;
+    background-color: white;
+    color: #253760;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 24px;
+    font-family: 'Khmer MN';
+    transition: ease 300ms;
+}
+
+body{
+    font-family: 'Malayalam Sangam MN';
+    color: #253760;
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+main div{
+    background-color: #253760;
+    color: white;
+    padding: 1em
+}
+
+main div p{
+    text-align: center;
+}
+
+main div h2{
+    text-align: center;
+}
+
+ol li {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+ol a{
+    background: transparent;
+}
+
+.blauwe_achtergrond{
+    background-color: #253760;
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
+
+.blauwe_achtergrond a{
+    color: white;
+}
+
+footer{
+    background-color: white;
+    color: #253760;
+    padding-top: 1.8em;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 1.8em;
+}
+
+footer a{
+    text-decoration: none;
+    color: #253760;
+}
+
+.footer_naast_elkaar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-socials img{
+    max-width: 3em;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer h3{
+    display: flex;
+    text-align: center;
+}
+
+ul hr{
+    margin: 1.8em;
+}
+
+.afleveringen{
+    justify-content: left;
+    margin-left: 10em;
+    margin-bottom: 2em;
+}
+
+.afleveringen a{
+    text-decoration: none;
+    color: white;
+    background-color: #253760;
+}
+
+.over_ons_main {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+
+.over_ons_main p{
+    text-align: left;
+}
+
+.over_ons_main hr{
+    margin-left: 6.5em;
+}
+
+.afleveringen{
+    justify-content: left;
+    margin-left: 10em;
+    margin-bottom: 2em;
+}
+
+div .afleveringen li{
+    display: flex;
+}
+
+div .afleveringen p{
+    text-align: left;
+}
+
+.afleveringen img{
+    margin-right: 6em;
+}
+
+.contact_lijst{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 6em;
+}
+
+.contact_lijst .tekst_contact{
+    text-align: left;
+    margin-left: 14.5em;
+    margin-right: 7em;
+}
+
+.klikbaar{
+    text-decoration: none;
+    color: #253760;
+}
+
+body header img{
+    width: 12.5em;
+}
+
+main iframe{
+    width: 100%; height: 100%;
+}
+
+main section img{
+    width: 40%;
+}
+
+main ol img{
+    width: 25%;
+}
+
+footer ul img{
+    width: 25%;
+}
+
+.blauwe_achtergrond img{
+    width: 30%;
+}
